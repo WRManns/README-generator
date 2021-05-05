@@ -1,5 +1,4 @@
-
-    ## Project Title
+## Project Title
 
     ReadMe Generator
     
@@ -21,7 +20,7 @@
 
     ## Description
 
-    Template that takes in User input and generates a ReadMe.md document in Node.js.
+    Generate a ReadMe.md document from a User's input into a template run using Node.js.
 
     ## Installation
 
@@ -41,7 +40,7 @@
 
     ## Collaborators
 
-    Ryan Manns
+    
 
     ## Questions
     

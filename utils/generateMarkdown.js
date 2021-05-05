@@ -1,7 +1,7 @@
 //Function to render a badge with license, if there is one
 function renderLicenseBadge(license) {
   if (license !== "None") {
-    return `![<img src="https://img.shields.io/badge/license-${license}-brightgreen.svg?logo=LOGO">](https://img.shields.io/badge/license-${license}-brightgreen)`
+    return (`![<img src="https://img.shields.io/badge/license-${license}-brightgreen.svg?logo=LOGO">](https://img.shields.io/badge/license-${license}-brightgreen)`)
   }
   return ''
 }
@@ -17,9 +17,9 @@ return ''
 //Function to generate a link to project repo
 function projectURL(github, title){
   const kebabCaseTitle = title.toLowerCase().split(" ").join("-");
-  return `## Project Repository
+  return (`## Project Repository
 
-    [Link to Repo](https://github.com/${github}/${kebabCaseTitle})`;
+    [Link to Repo](https://github.com/${github}/${kebabCaseTitle})`);
 }
 //Function to only generate a "license" tab in the Table of Contents if a license exists
 function licenseToc(license){
@@ -31,8 +31,7 @@ function licenseToc(license){
 
 //Function to generate markdown for README based on user's input into template
 function generateMarkdown(data) {
-  return `
-    ## Project Title
+  return(`## Project Title
 
     ${data.title}
     
@@ -78,7 +77,7 @@ ${licenseToc(data.license)}
     
     Email me with any questions: ${data.email}  
 
-`;
+`);
 }
 
 module.exports = generateMarkdown;
