@@ -19,7 +19,7 @@ function projectURL(github, title){
   return `## Project Repository
     https://github.com/${github}/${kebabCaseTitle}`;
 }
-
+//Function to only generate a "license" tab in the Table of Contents if a license exists
 function licenseToc(license){
   if (license !== "None"){
   return ('- [License](#license)')
@@ -27,7 +27,7 @@ function licenseToc(license){
   return ''
 }
 
-//Function to generate markdown for README
+//Function to generate markdown for README based on user's input into template
 function generateMarkdown(data) {
   return `
     ## Project Title
