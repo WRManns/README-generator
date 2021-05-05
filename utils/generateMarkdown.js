@@ -1,7 +1,7 @@
 //Function to render a badge with license, if there is one
 function renderLicenseBadge(license) {
   if (license !== "None") {
-    return `[![badge](https://img.shields.io/badge/license-${license}-brightgreen)]`
+    return `![badge](https://img.shields.io/badge/license-${license}-brightgreen)`
   }
   return ''
 }
