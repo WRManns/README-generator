@@ -4,7 +4,7 @@
 ## Project Repository
   [Link to Repo](https://github.com/WRManns/readme-generator)
 
-  ![badge](<img src="https://img.shields.io/badge/license-unlicensed-brightgreen.svg?logo=LOGO">)
+  ![<img src="https://img.shields.io/badge/license-unlicensed-brightgreen.svg?logo=LOGO">](<img src="https://img.shields.io/badge/license-unlicensed-brightgreen.svg?logo=LOGO">)
 
     ## Table of Contents
 - [Description](#description)
