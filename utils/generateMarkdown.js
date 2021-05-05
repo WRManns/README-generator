@@ -17,7 +17,7 @@ return ''
 function projectURL(github, title){
   const kebabCaseTitle = title.toLowerCase().split(" ").join("-");
   return (`## Project Repository
-  
+
   [Link to Repo](https://github.com/${github}/${kebabCaseTitle})`);
 }
 //Function to only generate a "license" tab in the Table of Contents if a license exists
@@ -33,9 +33,9 @@ function generateMarkdown(data) {
   return(`## Project Title
     ${data.title}
     
-    ${projectURL(data.github, data.title)}
+  ${projectURL(data.github, data.title)}
 
-    ${renderLicenseBadge(data.license, data.github, data.title)}
+  ${renderLicenseBadge(data.license, data.github, data.title)}
 
     ## Table of Contents
 
