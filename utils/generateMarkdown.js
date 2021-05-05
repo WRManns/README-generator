@@ -32,6 +32,7 @@ function generateMarkdown(data) {
   return `
     ## Project Title
     ${data.title}
+    
     ${projectURL(data.github, data.title)}
 
     ${renderLicenseBadge(data.license, data.github, data.title)}

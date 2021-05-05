@@ -1,16 +1,17 @@
 
     ## Project Title
     ReadMe Generator
+    
     ## Project Repository
     https://github.com/WRManns/readme-generator
 
-    
+    [![badge](https://img.shields.io/badge/license-unlicensed-brightgreen)]
 
     ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-
+- [License](#license)
 - [Contirbuting](#collaborators)
 - [GitHub](#github)
 - [Tests](#tests)
@@ -18,7 +19,7 @@
 
     ## Description
 
-    Template that allows User to generate a ReadMe.md file using Node.js.
+    A Node.js  template that generates a ReadME.md document based on the User's input.
 
     ## Installation
 
@@ -26,9 +27,10 @@
 
     ## Usage
 
-    After installation, run 'node index.js' to start the app. Answer the questions/propts and ReadME.md document will be generated.
+    After installation, run 'node index.js' to start.
 
-    
+    ## License
+    This Project uses the unlicensed License
 
     ## Test
 
