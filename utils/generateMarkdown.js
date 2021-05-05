@@ -1,7 +1,7 @@
 //Function to render a badge with license, if there is one
 function renderLicenseBadge(license) {
   if (license !== "None") {
-    return `![badge](https://img.shields.io/badge/license-${license}-brightgreen)`
+    return `![<img src="https://img.shields.io/badge/license-${license}-brightgreen.svg?logo=LOGO">](https://img.shields.io/badge/license-${license}-brightgreen)`
   }
   return ''
 }
@@ -9,7 +9,7 @@ function renderLicenseBadge(license) {
 function renderLicenseSection(license) {
 if (license !== "None") {
   return (`## License
-  
+
     This Project uses the ${license} License`)
 }
 return ''
@@ -19,7 +19,7 @@ function projectURL(github, title){
   const kebabCaseTitle = title.toLowerCase().split(" ").join("-");
   return `## Project Repository
 
-    https://github.com/${github}/${kebabCaseTitle}`;
+    [Link to Repo](https://github.com/${github}/${kebabCaseTitle})`;
 }
 //Function to only generate a "license" tab in the Table of Contents if a license exists
 function licenseToc(license){
