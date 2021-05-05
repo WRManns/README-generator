@@ -1,12 +1,10 @@
 ## Project Title
-
     ReadMe Generator
     
     ## Project Repository
+  [Link to Repo](https://github.com/WRManns/readme-generator)
 
-    [Link to Repo](https://github.com/WRManns/readme-generator)
-
-    ![<img src="https://img.shields.io/badge/license-unlicensed-brightgreen.svg?logo=LOGO">](https://img.shields.io/badge/license-unlicensed-brightgreen)
+    [<img src="https://img.shields.io/badge/license-unlicensed-brightgreen.svg?logo=LOGO">](https://img.shields.io/badge/license-unlicensed-brightgreen)
 
     ## Table of Contents
 - [Description](#description)
@@ -20,7 +18,7 @@
 
     ## Description
 
-    Generate a ReadMe.md document from a User's input into a template run using Node.js.
+    Generates a ReadMe.md document bass on User input into a template using Node.js.
 
     ## Installation
 
@@ -31,8 +29,7 @@
     After installation, run 'node index.js' in terminal to begin.
 
     ## License
-
-    This Project uses the unlicensed License
+  This Project uses the unlicensed License
 
     ## Test
 
@@ -40,7 +37,7 @@
 
     ## Collaborators
 
-    
+    Ryan Manns
 
     ## Questions
     
