@@ -3,7 +3,7 @@
     ReadMe Generator
     
     ## Project Repository
-    https://github.com/WRManns/readme-generator
+    #https://github.com/WRManns/readme-generator
 
     ![badge](https://img.shields.io/badge/license-unlicensed-brightgreen)
 
