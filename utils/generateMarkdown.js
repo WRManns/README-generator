@@ -1,23 +1,11 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-
-// If there is no license, return an empty string
+//Function to render a badge with license, if there is one
 function renderLicenseBadge(license) {
   if (license !== "None") {
     return `[![badge](https://img.shields.io/badge/license-${license}-brightgreen)]`
   }
   return ''
 }
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-// function renderLicenseLink(license) {
-//   if (license !== "None" || "unlicensed") {
-//     return ()
-//   }
-//   return ''
-//}
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+//Function to genereate license section, if there is one
 function renderLicenseSection(license) {
 if (license !== "None") {
   return (`## License
@@ -25,13 +13,21 @@ if (license !== "None") {
 }
 return ''
 }
-
+//Function to generate a link to project repo
 function projectURL(github, title){
   const kebabCaseTitle = title.toLowerCase().split(" ").join("-");
-  return `https://github.com/${github}/${kebabCaseTitle}`;
+  return `## Project Repository
+    https://github.com/${github}/${kebabCaseTitle}`;
 }
 
-// TODO: Create a function to generate markdown for README
+function licenseToc(license){
+  if (license !== "None"){
+  return ('- [License](#license)')
+} 
+  return ''
+}
+
+//Function to generate markdown for README
 function generateMarkdown(data) {
   return `
     ## Project Title
@@ -44,7 +40,7 @@ function generateMarkdown(data) {
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
+${licenseToc(data.license)}
 - [Contirbuting](#collaborators)
 - [GitHub](#github)
 - [Tests](#tests)
