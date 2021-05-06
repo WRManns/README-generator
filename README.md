@@ -1,9 +1,9 @@
 ## Project Title
-    asdflkj
+    ReadMe Generator
     
   ## Project Repository
 
-  [Link to Repo](https://github.com/WRManns/asdflkj)
+  [Link to Repo](https://github.com/WRManns/readme-generator)
 
   [<img src="https://img.shields.io/badge/license-unlicensed-brightgreen.svg?logo=LOGO">](https://img.shields.io/badge/license-unlicensed-brightgreen)
 
@@ -20,15 +20,15 @@
 
     ## Description
 
-    kl;jasdf;klja;sdlkjfasd
+    A Node.js app that prompts a user with questions for input, then creates a ReadME.md document from the answers.
 
     ## Installation
 
-    ;klajsdf
+    Run 'npm install' in the terminal.
 
     ## Usage
 
-    flskjalkjsf
+    After installation, run 'node index.js' in terminal to begin.
 
     ## License
   This Project uses the unlicensed License
@@ -39,11 +39,11 @@
 
     ## Collaborators
 
-    asdf
+    Ryan Manns
 
     ## Questions
     
     Find me on GitHub: [WRManns](https://github.com/WRManns)
     
-    Email me with any questions: email@email  
+    Email me with any questions: w.r.manns@outlook.com  
 
