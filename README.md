@@ -20,15 +20,15 @@
 
     ## Description
 
-    Created a README.md file for an application from the terminal, using Node.js
+    A Node.js based app that generates a README.md file, based on user input in the terminal
 
     ## Installation
 
-    Run npm install from the terminal
+    Run 'npm install' in the terminal
 
     ## Usage
 
-    User will need to enter their Github username, Project Title, Description, Licensing Info, and any testing that may be involved in their app.
+    Follow the input prompts and hit 'enter' to record answers
 
     ## License
   This Project uses the unlicensed License
