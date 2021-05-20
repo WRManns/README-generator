@@ -1,9 +1,9 @@
 ## Project Title
-    ReadMe Generator
+    README.md Generator
     
   ## Project Repository
 
-  [Link to Repo](https://github.com/WRManns/readme-generator)
+  [Link to Repo](https://github.com/WRManns/readme.md-generator)
 
   [<img src="https://img.shields.io/badge/license-unlicensed-brightgreen.svg?logo=LOGO">](https://img.shields.io/badge/license-unlicensed-brightgreen)
 
@@ -20,15 +20,15 @@
 
     ## Description
 
-    A Node.js app that prompts a user with questions for input, then creates a ReadME.md document from the answers.
+    Created a README.md file for an application from the terminal, using Node.js
 
     ## Installation
 
-    Run 'npm install' in the terminal.
+    Run npm install from the terminal
 
     ## Usage
 
-    After installation, run 'node index.js' in terminal to begin.
+    User will need to enter their Github username, Project Title, Description, Licensing Info, and any testing that may be involved in their app.
 
     ## License
   This Project uses the unlicensed License
