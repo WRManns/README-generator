@@ -49,4 +49,4 @@
 
 
 ## Tutorial
-![ Alt text](./assets/README_Tutorial.gif) / ! [](./assets/README_Tutorial.gif)
+![ Tutorial GIF](./assets/README_Tutorial.gif) / ! [](./assets/README_Tutorial.gif)
