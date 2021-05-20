@@ -47,3 +47,6 @@
     
     Email me with any questions: w.r.manns@outlook.com  
 
+
+## Tutorial
+![ Alt text](./assets/README_Tutorial.gif) / ! [](./assets/README_Tutorial.gif)
