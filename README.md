@@ -1,18 +1,18 @@
 ## Project Title
-    README.md Generator
+    CMS-Employee Tracker
     
   ## Project Repository
 
-  [Link to Repo](https://github.com/WRManns/readme.md-generator)
+  [Link to Repo](https://github.com/WRManns/cms-employee-tracker)
 
-  [<img src="https://img.shields.io/badge/license-unlicensed-brightgreen.svg?logo=LOGO">](https://img.shields.io/badge/license-unlicensed-brightgreen)
+  
 
    ## Table of Contents
 
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
+
 - [Contirbuting](#collaborators)
 - [GitHub](#github)
 - [Tests](#tests)
@@ -20,18 +20,17 @@
 
     ## Description
 
-    A Node.js based app that generates a README.md file, based on user input in the terminal
+    A MySQL supported application that allows Users to track/add/delete employees/roles/departments from the terminal.
 
     ## Installation
 
-    Run 'npm install' in the terminal
+    User would want to run a 'npm install' to load the required dependencies.
 
     ## Usage
 
-    Follow the input prompts and hit 'enter' to record answers
+    After 'npm install', user would simply want to run an 'npm start' from the terminal to begin.
 
-    ## License
-  This Project uses the unlicensed License
+    
 
     ## Test
 
@@ -47,6 +46,3 @@
     
     Email me with any questions: w.r.manns@outlook.com  
 
-
-## Tutorial
-![ Tutorial GIF](./assets/README_Tutorial.gif) / ! [](./assets/README_Tutorial.gif)
