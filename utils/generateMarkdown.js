@@ -44,6 +44,7 @@ function generateMarkdown(data) {
 - [Usage](#usage)
 ${licenseToc(data.license)}
 - [Contirbuting](#collaborators)
+- [Deployed App](#deployment)
 - [GitHub](#github)
 - [Tests](#tests)
 - [Questions](#questions)
@@ -65,6 +66,10 @@ ${licenseToc(data.license)}
     ## Test
 
     ${data.test}
+
+    ## Deployed App
+
+    ${data.deployment}
 
     ## Collaborators
 

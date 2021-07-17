@@ -46,13 +46,17 @@ const questions = () => {
         default: 'npm test'
       },
 
-      
       {
         type: 'input',
         name: 'contributing',
         message: 'List any and all contributors to this project:',
       },
 
+      {
+        type: 'input',
+        name: 'deployment',
+        message: 'What is the link to the deployed app?'
+      },
 
       {
         type: 'input',

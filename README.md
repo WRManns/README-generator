@@ -1,9 +1,9 @@
 ## Project Title
-    CMS-Employee Tracker
+    take-note
     
   ## Project Repository
 
-  [Link to Repo](https://github.com/WRManns/cms-employee-tracker)
+  [Link to Repo](https://github.com/WRManns/take-note)
 
   
 
@@ -20,15 +20,15 @@
 
     ## Description
 
-    A MySQL supported application that allows Users to track/add/delete employees/roles/departments from the terminal.
+    An Express.js driven app that allows user to Make, Save and, View notes
 
     ## Installation
 
-    User would want to run a 'npm install' to load the required dependencies.
+    run an npm install from terminal followed by npm start to start server
 
     ## Usage
 
-    After 'npm install', user would simply want to run an 'npm start' from the terminal to begin.
+    
 
     
 
