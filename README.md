@@ -1,9 +1,9 @@
 ## Project Title
-    e-Commerce_Backend
+    Let's Tech About That
     
   ## Project Repository
 
-  [Link to Repo](https://github.com/WRManns/e-commerce_backend)
+  [Link to Repo](https://github.com/WRManns/let's-tech-about-that)
 
   
 
@@ -21,15 +21,15 @@
 
     ## Description
 
-    A backend server/database for an e-commerce setting. User can use to keep track of stock, price, and categorize products. User can also Add, Modify, and Delete inventory from the database. Utilized Express.js and MySql.
+    A blog app that allows users to view multiple blogs and comments, while signed out. If they sign in, or create a sign-in, they can create their own blog posts and comment on others'.
 
     ## Installation
 
-    User will have to install Node modules and Dependencies by way of 'npm install' from terminal. If User would like to seed the database, they can run 'npm run seed' from terminal, before initializing the server.
+    User would want to run 'npm install' from the terminal. If user wishes, there is seed data available. If they would like, run 'npm run seed' before launching from terminal.
 
     ## Usage
 
-    After installation and seeding, User can run 'npm start' from terminal to initialize server.
+    If hosting locally, User will have to run app by 'npm start' from terminal.
 
     
 
@@ -39,7 +39,7 @@
 
     ## Deployed App
 
-    This is all backend and app is not deployed
+    
 
     ## Collaborators
 
